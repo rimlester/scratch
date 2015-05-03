@@ -12,7 +12,8 @@ namespace CSIRO_Initial
         {
             
             Study s = new Study(args[0]);
-
+            var output = Parser.Translate(s);
+            output.Save(args[1]);
 
         }
     }

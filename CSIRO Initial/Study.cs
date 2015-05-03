@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace CSIRO_Initial
 {
-    class Study
+    public class Study
     {
         public XDocument BackingDoc { get; protected set; }
 
