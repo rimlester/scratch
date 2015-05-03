@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>VDS.Common</id>
+    <version>1.5.0</version>
+    <title>VDS.Common</title>
+    <authors>RobVesse, kal_ahmed</authors>
+    <owners>RobVesse, kal_ahmed</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>http://bitbucket.org/rvesse/vds-common</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A library containing useful data structures like Trees, Tries, Sparse Arrays, Bloom Filters and indexing tailored dictionaries.</description>
+    <releaseNotes>- Performance improvements to Bloom Filters
+- Updated PCL build to Profile 328 to support a wider range of targets</releaseNotes>
+    <tags>Data Structures Tree Trie AVL Scapegoat Dictionary Collections Sparse Arrays Bloom Filters</tags>
+  </metadata>
+</package>
